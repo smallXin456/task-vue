@@ -113,7 +113,6 @@
             plain
             icon="Upload"
             @click="handleImport"
-            v-hasPermi="['system:task:import']"
         >导入</el-button>
       </el-col>
 
